@@ -5,6 +5,8 @@
       "Experiences": [
         {
           "Name": "AI/Robotics Researcher",
+          "key": "lsy",
+          "textcolor": "black",
           "Company": "Learning Systems Robotics Lab at TUM",
           "Location": "Munich, Germany",
           "Start": "2024-05-01",
@@ -23,8 +25,11 @@
           "End": "2024-04-31",
           "Keywords": ["Java", "Spring", "React"],
           "Descriptions": [
-            "Developed a new feature for the company's product",
-            "Worked with a team of 5 people"
+            "Worked as a NLP researcher under co-supervision of Prof. Raeid Saqur and Dr. Christopher Cochrane to work on a paper exploring the use of LLM in the analysis of parliamentary speeches of Japanese legislators to predict their ideological stances in regards to various political topics.",
+            "Fine-tuned a BERT model to classify speech segments into opinion, factual, descriptive, other sentence types",
+            "Conducted statistical analysis on the retrieved embeddings to explain political stances of legislators",
+            "Published paper 'L(u)PIN: LLM-based Political Ideology Nowcasting' on arxiv. ",
+            "Presenting a poster in the PolMeth 2024 conference at UC Riverside."
           ]
         },
         {
@@ -35,8 +40,9 @@
           "End": "2024-04-31",
           "Keywords": ["Java", "Spring", "React"],
           "Descriptions": [
-            "Developed a new feature for the company's product",
-            "Worked with a team of 5 people"
+            "Accelerated the development of the rapidly expanding web platform for HelloFresh and its sub-brands including ChefsPlate, Factor, GreenChef, and EveryPlate, enhancing global user access.",
+            "Engineered and executed end-to-end tests with Cypress and developed unit tests with React Testing Library to ensure software performance.",
+            "Established monitoring protocols using Honeycomb, implemented Google Analytics tracking, and led A/B testing initiatives with Statsig and Optimizely to optimise user experience and operational efficiency."
           ]
         },
         {
@@ -47,8 +53,11 @@
           "End": "2023-02-31",
           "Keywords": ["Java", "Spring", "React"],
           "Descriptions": [
-            "Developed a new feature for the company's product",
-            "Worked with a team of 5 people"
+            "Working as a research fellow at the Citizen Lab in the University of Toronto. ",
+            "Received funding worth more than $6000 as a ESROP(Engineering Science Research Opportunity Program) fellow from the Division of Engineering Science and Citizen Lab. ",
+            "Contributed to the research done by Dr. Jeffrey Knockel, analyzing the censorship implementation in search engines operated by Chinese ISPs. ",
+            "Published the work done on the Citizen Lab website.",
+            "Publication featured on the New York Times"
           ]
         },
         {
@@ -59,8 +68,11 @@
           "End": "2021-06-30",
           "Keywords": ["Java", "Spring", "React"],
           "Descriptions": [
-            "Developed a new feature for the company's product",
-            "Worked with a team of 5 people"
+            "Structural analysis using the SOLIDWORKS Simulation as well as fluid flow analysis using SOLIDWORKS Flow Simulation and Particle Works",
+            "Implementation of physical models using C++",
+            "Full-stack product development in flask and HTML, CSS and JS",
+            "Contributing to the NLP product development of the division, using Mecab and gensim",
+            "Deep reinforcement learning experience, implementing models such as A2C, REINFORCE and DQN in tensorflow."
           ]
         },
         {
@@ -80,10 +92,9 @@
           "Location": "Dusseldorf, Germany",
           "Start": "2016-06-01",
           "End": "2019-02-31",
-          "Keywords": ["Java", "Spring", "React"],
+          "Keywords": [],
           "Descriptions": [
-            "Developed a new feature for the company's product",
-            "Worked with a team of 5 people"
+            "Worked as a U14 football coach to train a team composed of Japanese and German players."
           ]
         },
         {
@@ -91,10 +102,9 @@
           "Location": "Dusseldorf, Germany",
           "Start": "2017-06-01",
           "End": "2017-07-31",
-          "Keywords": ["Java", "Spring", "React"],
+          "Keywords": [],
           "Descriptions": [
-            "Developed a new feature for the company's product",
-            "Worked with a team of 5 people"
+            "As a student intern at SIEMENS AG, I was exposed to first hand experience of mechanical engineering by assembling mechanical parts and welding; which I enjoyed the most. This was a precious experience for me because this was what convinced me to pursue engineering in university."
           ]
         }
       ]
@@ -104,6 +114,28 @@
       "Experiences": [
         {
           "Name": "KOKKAI DOC",
+          "Location": "Dusseldorf, Germany",
+          "Start": "2016-06-01",
+          "End": "2019-02-31",
+          "Keywords": ["Java", "Spring", "React"],
+          "Descriptions": [
+            "Developed a new feature for the company's product",
+            "Worked with a team of 5 people"
+          ]
+        },
+        {
+          "Name": "Diary CRUD Application with React and Django",
+          "Location": "Dusseldorf, Germany",
+          "Start": "2016-06-01",
+          "End": "2019-02-31",
+          "Keywords": ["Java", "Spring", "React"],
+          "Descriptions": [
+            "Developed a new feature for the company's product",
+            "Worked with a team of 5 people"
+          ]
+        },
+        {
+          "Name": "School Reunion CRUD Social Media Platform using Django, HTML, CSS, JS",
           "Location": "Dusseldorf, Germany",
           "Start": "2016-06-01",
           "End": "2019-02-31",

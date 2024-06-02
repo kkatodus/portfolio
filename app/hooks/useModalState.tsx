@@ -1,15 +1,17 @@
-import { atom, useAtom } from "jotai";
-
+"use client";
+import { useAtom, atom } from "jotai";
 const currentModalExperienceAtom = atom(null);
 
-export default function useModalExperienceData() {
+const useModalExperienceData = () => {
   const [currentModalExperienceState, setModalExperience] = useAtom(
     currentModalExperienceAtom
   );
 
-  const updatecurrentModalExperienceState = (currentModalExperience) => {
+  const updateCurrentModalExperienceState = (currentModalExperience) => {
     setModalExperience(currentModalExperience);
   };
 
-  return { currentModalExperienceState, updatecurrentModalExperienceState };
-}
+  return { currentModalExperienceState, updateCurrentModalExperienceState };
+};
+
+export default useModalExperienceData;
