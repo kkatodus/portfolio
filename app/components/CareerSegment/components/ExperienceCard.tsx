@@ -1,12 +1,16 @@
+// @ts-nocheck
 "use client";
+// @ts-nocheck
 import useModalExperienceData from "@/app/hooks/useModalState";
+import ExperienceType from "@/app/types";
 import lsy from "@/public/images/lsy.jpeg";
+import { CSSProperties } from "react";
 
 const key2image = {
   lsy,
 };
 
-const ExperienceCard = ({ Experience }) => {
+const ExperienceCard = ({ Experience }: { Experience: ExperienceType }) => {
   const { updateCurrentModalExperienceState } = useModalExperienceData();
 
   const {
@@ -26,12 +30,15 @@ const ExperienceCard = ({ Experience }) => {
         textcolor ? textcolor : "text-white"
       }`}
       style={
-        key && {
-          backgroundImage: `url(${key2image[key].src})`,
+        key &&
+        ({
+          backgroundImage: `url(${
+            key2image[key as keyof typeof key2image].src
+          })`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-        }
+        } as CSSProperties)
       }
       key={Name}
       onClick={() => updateCurrentModalExperienceState(Experience)}

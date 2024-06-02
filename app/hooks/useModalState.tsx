@@ -1,13 +1,16 @@
 "use client";
 import { useAtom, atom } from "jotai";
-const currentModalExperienceAtom = atom(null);
+import ExperienceType from "../types";
+const currentModalExperienceAtom = atom<ExperienceType | null>(null);
 
 const useModalExperienceData = () => {
   const [currentModalExperienceState, setModalExperience] = useAtom(
     currentModalExperienceAtom
   );
 
-  const updateCurrentModalExperienceState = (currentModalExperience) => {
+  const updateCurrentModalExperienceState = (
+    currentModalExperience: ExperienceType | null
+  ) => {
     setModalExperience(currentModalExperience);
   };
 

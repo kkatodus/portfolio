@@ -1,7 +1,14 @@
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 import ExperienceCard from "./components/ExperienceCard";
+import ExperienceType from "@/app/types";
 
-const CareerSegment = ({ Genre, Experiences }) => {
+const CareerSegment = ({
+  Genre,
+  Experiences,
+}: {
+  Genre: string;
+  Experiences: ExperienceType[];
+}) => {
   return (
     <div className="h-full w-full flex justify-center items-center snap-center relative ">
       <h1 className="absolute top-0 left-0 text-4xl mt-2 ml-2 font-bold ">

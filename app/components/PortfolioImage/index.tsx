@@ -52,7 +52,7 @@ export const PortfolioImage = () => {
                 <FaLinkedin className="text-4xl" />
               </Link>
               <Link href={"https://www.kokkaidoc.com"}>
-                <Image src={kokkaidoc} className="w-10 h-10" />
+                <Image alt="kokkaidoc" src={kokkaidoc} className="w-10 h-10" />
               </Link>
             </div>
           </div>
