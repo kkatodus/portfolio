@@ -1,0 +1,137 @@
+{
+  "CareerData": [
+    {
+      "Genre": "Experiences",
+      "Experiences": [
+        {
+          "Name": "AI/Robotics Researcher",
+          "Company": "Learning Systems Robotics Lab at TUM",
+          "Location": "Munich, Germany",
+          "Start": "2024-05-01",
+          "End": "2024-08-31",
+          "Keywords": ["Java", "Spring", "React"],
+          "Descriptions": [
+            "Developed a new feature for the company's product",
+            "Worked with a team of 5 people"
+          ]
+        },
+        {
+          "Name": "NLP Researcher",
+          "Company": "University of Toronto",
+          "Location": "Toronto, Canada",
+          "Start": "2023-10-01",
+          "End": "2024-04-31",
+          "Keywords": ["Java", "Spring", "React"],
+          "Descriptions": [
+            "Developed a new feature for the company's product",
+            "Worked with a team of 5 people"
+          ]
+        },
+        {
+          "Name": "Software Engineer Co-op Intern",
+          "Company": "Hellofresh Canada",
+          "Location": "Toronto, Canada",
+          "Start": "2023-05-01",
+          "End": "2024-04-31",
+          "Keywords": ["Java", "Spring", "React"],
+          "Descriptions": [
+            "Developed a new feature for the company's product",
+            "Worked with a team of 5 people"
+          ]
+        },
+        {
+          "Name": "Censorship Researcher",
+          "Company": "Citizen Lab at University of Toronto",
+          "Location": "Toronto, Canada",
+          "Start": "2022-05-01",
+          "End": "2023-02-31",
+          "Keywords": ["Java", "Spring", "React"],
+          "Descriptions": [
+            "Developed a new feature for the company's product",
+            "Worked with a team of 5 people"
+          ]
+        },
+        {
+          "Name": "Software Engineer Intern",
+          "Location": "Tokyo, Japan",
+          "Company": "Kozo Keikaku Engineering Inc.",
+          "Start": "2020-05-01",
+          "End": "2021-06-30",
+          "Keywords": ["Java", "Spring", "React"],
+          "Descriptions": [
+            "Developed a new feature for the company's product",
+            "Worked with a team of 5 people"
+          ]
+        },
+        {
+          "Name": "Business Consultant Intern",
+          "Company": "PwC",
+          "Location": "Tokyo, Japan",
+          "Start": "2020-08-01",
+          "End": "2020-08-31",
+          "Keywords": ["Java", "Spring", "React"],
+          "Descriptions": [
+            "Developed a new feature for the company's product",
+            "Worked with a team of 5 people"
+          ]
+        },
+        {
+          "Name": "U14 Football Coach",
+          "Location": "Dusseldorf, Germany",
+          "Start": "2016-06-01",
+          "End": "2019-02-31",
+          "Keywords": ["Java", "Spring", "React"],
+          "Descriptions": [
+            "Developed a new feature for the company's product",
+            "Worked with a team of 5 people"
+          ]
+        },
+        {
+          "Name": "Heavy Machinery Student Intern",
+          "Location": "Dusseldorf, Germany",
+          "Start": "2017-06-01",
+          "End": "2017-07-31",
+          "Keywords": ["Java", "Spring", "React"],
+          "Descriptions": [
+            "Developed a new feature for the company's product",
+            "Worked with a team of 5 people"
+          ]
+        }
+      ]
+    },
+    {
+      "Genre": "Projects",
+      "Experiences": [
+        {
+          "Name": "KOKKAI DOC",
+          "Location": "Dusseldorf, Germany",
+          "Start": "2016-06-01",
+          "End": "2019-02-31",
+          "Keywords": ["Java", "Spring", "React"],
+          "Descriptions": [
+            "Developed a new feature for the company's product",
+            "Worked with a team of 5 people"
+          ]
+        }
+      ]
+    },
+
+    {
+      "Genre": "Publications",
+      "Experiences": [
+        {
+          "Name": "SWE at HF",
+          "Location": "Helsinki",
+          "Country": "Finland",
+          "Start": "2019-09-01",
+          "End": "2020-08-31",
+          "Keywords": ["Java", "Spring", "React"],
+          "Descriptions": [
+            "Developed a new feature for the company's product",
+            "Worked with a team of 5 people"
+          ]
+        }
+      ]
+    }
+  ]
+}
