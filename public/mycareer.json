@@ -34,6 +34,8 @@
         },
         {
           "Name": "Software Engineer Co-op Intern",
+          "key": "hf",
+          "textcolor": "black",
           "Company": "Hellofresh Canada",
           "Location": "Toronto, Canada",
           "Start": "2023-05-01",
@@ -47,6 +49,8 @@
         },
         {
           "Name": "Censorship Researcher",
+          "key": "citizen",
+          "textcolor": "black",
           "Company": "Citizen Lab at University of Toronto",
           "Location": "Toronto, Canada",
           "Start": "2022-05-01",
@@ -63,6 +67,8 @@
         {
           "Name": "Software Engineer Intern",
           "Location": "Tokyo, Japan",
+          "key": "kke",
+          "textcolor": "black",
           "Company": "Kozo Keikaku Engineering Inc.",
           "Start": "2020-05-01",
           "End": "2021-06-30",
@@ -78,6 +84,8 @@
         {
           "Name": "Business Consultant Intern",
           "Company": "PwC",
+          "key": "pwc",
+          "textcolor": "black",
           "Location": "Tokyo, Japan",
           "Start": "2020-08-01",
           "End": "2020-08-31",
@@ -90,6 +98,9 @@
         {
           "Name": "U14 Football Coach",
           "Location": "Dusseldorf, Germany",
+          "Company": "SC West Düsseldorf e.V.",
+          "key": "scwest",
+          "textcolor": "black",
           "Start": "2016-06-01",
           "End": "2019-02-31",
           "Keywords": [],
@@ -99,6 +110,9 @@
         },
         {
           "Name": "Heavy Machinery Student Intern",
+          "Company": "SIEMENS AG",
+          "key": "siemens",
+          "textcolor": "black",
           "Location": "Dusseldorf, Germany",
           "Start": "2017-06-01",
           "End": "2017-07-31",

@@ -12,7 +12,7 @@ const ModalManager: React.FC = () => {
     return null;
   }
   return (
-    <div className="fixed top-0 z-1000 right-0 w-full h-full bg-slate-200 bg-opacity-25 flex justify-center items-center">
+    <div className="fixed top-0 z-100 right-0 w-full h-full bg-slate-200 bg-opacity-25 flex justify-center items-center">
       <Slide
         direction="up"
         className="relative w-[90%] h-[90%] bg-slate-500 rounded-lg flex flex-col"
