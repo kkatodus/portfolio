@@ -10,6 +10,9 @@ import citizen from "@/public/images/citizen.png";
 import pwc from "@/public/images/pwc.png";
 import siemens from "@/public/images/siemens.png";
 import scwest from "@/public/images/scwest.jpeg";
+import uoft from "@/public/images/uoft.png";
+import vector from "@/public/images/vector.jpg";
+import kokkaidoc from "@/public/images/kokkaidoc.PNG";
 import { CSSProperties } from "react";
 
 const key2image = {
@@ -20,6 +23,9 @@ const key2image = {
   pwc,
   siemens,
   scwest,
+  vector,
+  uoft,
+  kokkaidoc,
 };
 
 const ExperienceCard = ({ Experience }: { Experience: ExperienceType }) => {
@@ -39,8 +45,8 @@ const ExperienceCard = ({ Experience }: { Experience: ExperienceType }) => {
   return (
     <div
       className={`relative h-[300px] min-w-[300px] w-[200px] m-2 border-2 rounded-md flex flex-col justify-center items-center transition duration-500 hover:scale-110 cursor-pointer ${
-        textcolor ? textcolor : "text-white"
-      } ${key ? "bg-white" : "bg-slate-500"}`}
+        key ? "bg-white" : "bg-slate-500"
+      }`}
       style={
         key &&
         ({
@@ -55,7 +61,11 @@ const ExperienceCard = ({ Experience }: { Experience: ExperienceType }) => {
       key={Name}
       onClick={() => updateCurrentModalExperienceState(Experience)}
     >
-      <div className="flex flex-col justify-center items-center bg-white bg-opacity-30 w-full h-full ">
+      <div
+        className={`flex flex-col justify-center items-center bg-white bg-opacity-50 w-full h-full ${
+          textcolor ? textcolor : "text-black"
+        } `}
+      >
         <h2 className="text-2xl text-center font-bold">{Name}</h2>
         <h3 className="text-center font-bold">{Company}</h3>
         <p className="font-bold">{Location}</p>

@@ -1,4 +1,5 @@
 import ExperienceType from "@/app/types";
+import Microlink from "@microlink/react";
 
 const ModalContent = ({ Experience }: { Experience: ExperienceType }) => {
   return (
@@ -14,7 +15,7 @@ const ModalContent = ({ Experience }: { Experience: ExperienceType }) => {
         </h3>
         <h3 className="ml-10">{Experience.Location}</h3>
       </div>
-      <div className="flex">
+      <div className="flex overflow-x-scroll">
         {Experience.Keywords?.map((keyword) => (
           <p key={keyword} className="bg-white rounded-lg mr-2 p-2">
             {keyword}
@@ -25,6 +26,11 @@ const ModalContent = ({ Experience }: { Experience: ExperienceType }) => {
         <div className="h-full flex flex-col">
           {Experience.Descriptions?.map((description) => (
             <p key={description}>- {description}</p>
+          ))}
+          {Experience.RelatedLinks?.map((link) => (
+            <div key={link} className="m-2">
+              <Microlink url={link} />
+            </div>
           ))}
         </div>
       </div>

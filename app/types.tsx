@@ -8,6 +8,7 @@ type ExperienceType = {
   Descriptions: string[];
   key?: string;
   textcolor?: string;
+  RelatedLinks?: string[];
 };
 
 export default ExperienceType;
