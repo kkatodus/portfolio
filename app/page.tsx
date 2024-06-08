@@ -4,6 +4,7 @@ import { PortfolioImage } from "./components/PortfolioImage";
 import CareerSegment from "./components/CareerSegment";
 import ModalManager from "./components/ModalManager";
 import ExperienceType from "./types";
+import GetInTouch from "./components/GetInTouch";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
           );
         }
       )}
+      <GetInTouch />
       <ModalManager />
     </div>
   );

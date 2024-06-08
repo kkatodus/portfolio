@@ -18,7 +18,10 @@ const ModalContent = ({ Experience }: { Experience: ExperienceType }) => {
       </div>
       <div className="flex overflow-x-scroll">
         {Experience.Keywords?.map((keyword) => (
-          <p key={keyword} className="bg-white rounded-lg mr-2 p-2">
+          <p
+            key={keyword}
+            className="bg-white rounded-lg mr-2 p-2 whitespace-nowrap"
+          >
             {keyword}
           </p>
         ))}

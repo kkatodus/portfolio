@@ -11,7 +11,6 @@
           "Location": "Munich, Germany",
           "Start": "2024-05-01",
           "End": "2024-08-31",
-
           "Keywords": [
             "AI",
             "LLM",
@@ -23,8 +22,8 @@
             "NLP"
           ],
           "Descriptions": [
-            "Developed a new feature for the company's product",
-            "Worked with a team of 5 people"
+            "Currently working at the LSY lab at TUM led by Prof. Angella Shoellig as a AI/Robotics research Intern",
+            "Working towards integrating LLMs into robotic controls to enable semantically nuanced behaviour of human assisting robots"
           ]
         },
         {
@@ -94,10 +93,13 @@
             "Honeycomb",
             "Google Analytics",
             "Statsig",
-            "Optimizely"
+            "Optimizely",
+            "TypeScript",
+            "NextJS"
           ],
           "Descriptions": [
             "Accelerated the development of the rapidly expanding web platform for HelloFresh and its sub-brands including ChefsPlate, Factor, GreenChef, and EveryPlate, enhancing global user access.",
+            "Worked with a NextJS and TypeScript stack to develop new features and improve existing ones, including the implementation of a new user onboarding flow and the integration of a new payment gateway.",
             "Engineered and executed end-to-end tests with Cypress and developed unit tests with React Testing Library to ensure software performance.",
             "Established monitoring protocols using Honeycomb, implemented Google Analytics tracking, and led A/B testing initiatives with Statsig and Optimizely to optimise user experience and operational efficiency."
           ]
@@ -172,8 +174,9 @@
           "End": "2020-08-31",
           "Keywords": ["Consulting", "Business", "Business Strategy"],
           "Descriptions": [
-            "Developed a new feature for the company's product",
-            "Worked with a team of 5 people"
+            "Worked as a business strategy consultant intern at PwC Japan",
+            "Advised real-life clients on their future business strategy and operations",
+            "Worked together with a team of interns to put together a final pitch to the clients"
           ]
         },
         {
@@ -231,6 +234,8 @@
             "NLP",
             "LLM",
             "AI",
+            "Data Science",
+            "Data Visualization",
             "Finetuning",
             "React",
             "Political Methodology",
@@ -240,8 +245,10 @@
             "Backend Development"
           ],
           "Descriptions": [
-            "Developed a new feature for the company's product",
-            "Worked with a team of 5 people"
+            "KOKKAI DOC is a platform that I founded which aims to make Japanese politics more transparent to the public through the use of AI/LLMs and data science",
+            "The platform uses a fine-tuned LLM to analyze the speeches of Japanese legislators and predict their ideological stances in regards to various political topics",
+            "The platform also provides a intuitive GUI enabling users to look up the speeches of representatives from various electoral districts and compare their stances on various topics",
+            "I have also scraped the voting data of parliamentary representatives and visualized them in a more intuitive way to help users understand the voting patterns of the representatives and parties"
           ]
         },
         {
@@ -261,10 +268,7 @@
             "Backend Development",
             "Frontend Development"
           ],
-          "Descriptions": [
-            "Developed a new feature for the company's product",
-            "Worked with a team of 5 people"
-          ]
+          "Descriptions": []
         },
         {
           "Name": "School Reunion CRUD Social Media Platform using Django, HTML, CSS, JS",
@@ -283,10 +287,7 @@
             "Backend Development",
             "Frontend Development"
           ],
-          "Descriptions": [
-            "Developed a new feature for the company's product",
-            "Worked with a team of 5 people"
-          ]
+          "Descriptions": []
         }
       ]
     },
@@ -298,7 +299,16 @@
           "Name": "L(u)PIN: LLM-based Political Ideology Nowcasting",
           "Start": "2019-09-01",
           "End": "2020-08-31",
-          "Keywords": ["Java", "Spring", "React"],
+          "Keywords": [
+            "AI",
+            "LLM",
+            "NLP",
+            "Political Science",
+            "Publication",
+            "Political Methodology",
+            "PolMeth2024",
+            "Political Science"
+          ],
           "RelatedLinks": ["https://arxiv.org/abs/2405.07320"],
           "Descriptions": [
             "The quantitative analysis of political ideological positions is a difficult task. In the past, various literature focused on parliamentary voting data of politicians, party manifestos and parliamentary speech to estimate political disagreement and polarization in various political systems. However previous methods of quantitative political analysis suffered from a common challenge which was the amount of data available for analysis. Also previous methods frequently focused on a more general analysis of politics such as overall polarization of the parliament or party-wide political ideological positions. In this paper, we present a method to analyze ideological positions of individual parliamentary representatives by leveraging the latent knowledge of LLMs. The method allows us to evaluate the stance of politicians on an axis of our choice allowing us to flexibly measure the stance of politicians in regards to a topic/controversy of our choice. We achieve this by using a fine-tuned BERT classifier to extract the opinion-based sentences from the speeches of representatives and projecting the average BERT embeddings for each representative on a pair of reference seeds. These reference seeds are either manually chosen representatives known to have opposing views on a particular topic or they are generated sentences which where created using the GPT-4 model of OpenAI. We created the sentences by prompting the GPT-4 model to generate a speech that would come from a politician defending a particular position."
@@ -309,7 +319,13 @@
           "Start": "2019-09-01",
           "End": "2020-08-31",
           "RelatedLinks": ["https://arxiv.org/abs/2405.09747"],
-          "Keywords": ["Java", "Spring", "React"],
+          "Keywords": [
+            "NLP",
+            "LLM",
+            "Finance",
+            "Prompt Engineering",
+            "Publication"
+          ],
           "Descriptions": [
             "We introduce and make publicly available the NIFTY Financial News Headlines dataset, designed to facilitate and advance research in financial market forecasting using large language models (LLMs). This dataset comprises two distinct versions tailored for different modeling approaches: (i) NIFTY-LM, which targets supervised fine-tuning (SFT) of LLMs with an auto-regressive, causal language-modeling objective, and (ii) NIFTY-RL, formatted specifically for alignment methods (like reinforcement learning from human feedback (RLHF)) to align LLMs via rejection sampling and reward modeling. Each dataset version provides curated, high-quality data incorporating comprehensive metadata, market indices, and deduplicated financial news headlines systematically filtered and ranked to suit modern LLM frameworks. We also include experiments demonstrating some applications of the dataset in tasks like stock price movement and the role of LLM embeddings in information acquisition/richness. The NIFTY dataset along with utilities (like truncating prompt's context length systematically) are available on Hugging Face at this https URL."
           ]
@@ -318,7 +334,15 @@
           "Name": "Missing Links A comparison of search censorship in China",
           "Start": "2019-09-01",
           "End": "2020-08-31",
-          "Keywords": ["Java", "Spring", "React"],
+          "Keywords": [
+            "Censorship",
+            "NLP",
+            "Data Science",
+            "Web Scraping",
+            "New York Times",
+            "Research",
+            "Publication"
+          ],
           "RelatedLinks": [
             "https://citizenlab.ca/2023/04/a-comparison-of-search-censorship-in-china/",
             "https://www.nytimes.com/2023/04/26/business/china-censored-search-engine.html"
@@ -329,6 +353,46 @@
             "Among web search engines Microsoft Bing and Baidu, Bing’s chief competitor in China, we found that, although Baidu has more censorship rules than Bing, Bing’s political censorship rules were broader and affected more search results than Baidu. Bing on average also restricted displaying search results from a greater number of website domains.",
             "These findings call into question the ability of non-Chinese technology companies to better resist censorship demands than their Chinese counterparts and serve as a dismal forecast concerning the ability of other non-Chinese technology companies to introduce search products or other services in China without integrating at least as many restrictions on political and religious expression as their Chinese competitors."
           ]
+        }
+      ]
+    },
+    {
+      "Genre": "Awards",
+      "Experiences": [
+        {
+          "Name": "CIE IE+ Award",
+          "Company": "University of Toronto",
+          "key": "uoft",
+
+          "Start": "2024-05-01",
+          "End": "2024-08-31",
+          "RelatedLinks": [
+            "https://learningabroad.utoronto.ca/learning-abroad/prepare_plan/funding/centre-for-international-experience/"
+          ],
+          "Keywords": []
+        },
+        {
+          "Name": "ESROP-GLOBAL Award",
+          "Company": "University of Toronto",
+          "key": "uoft",
+
+          "Start": "2024-05-01",
+          "End": "2024-08-31",
+          "RelatedLinks": [
+            "https://engsci.utoronto.ca/research-and-work/summer-research/esrop-global/"
+          ],
+          "Keywords": []
+        },
+        {
+          "Name": "ESROP-E4TW Award",
+          "Company": "University of Toronto",
+          "key": "uoft",
+          "Start": "2022-05-01",
+          "End": "2022-08-31",
+          "RelatedLinks": [
+            "https://engsci.utoronto.ca/research-and-work/summer-research/esrop-e4tw/"
+          ],
+          "Keywords": []
         }
       ]
     }

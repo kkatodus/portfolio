@@ -28,6 +28,13 @@ const key2image = {
   kokkaidoc,
 };
 
+const pastelColors = [
+  "bg-orange-200",
+  "bg-lime-300",
+  "bg-sky-200",
+  "bg-rose-200",
+];
+
 const ExperienceCard = ({ Experience }: { Experience: ExperienceType }) => {
   const { updateCurrentModalExperienceState } = useModalExperienceData();
 
@@ -45,7 +52,7 @@ const ExperienceCard = ({ Experience }: { Experience: ExperienceType }) => {
   return (
     <div
       className={`relative h-[300px] min-w-[300px] w-[200px] m-2 border-2 rounded-md flex flex-col justify-center items-center transition duration-500 hover:scale-110 cursor-pointer ${
-        key ? "bg-white" : "bg-slate-500"
+        key ? "bg-white" : pastelColors[Math.floor(Math.random() * 4)]
       }`}
       style={
         key &&
