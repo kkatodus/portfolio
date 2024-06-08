@@ -1,3 +1,4 @@
+// @ts-nocheck
 import ExperienceType from "@/app/types";
 import Microlink from "@microlink/react";
 

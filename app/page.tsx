@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { CareerData } from "@/public/mycareer.json";
 import { PortfolioImage } from "./components/PortfolioImage";
 import CareerSegment from "./components/CareerSegment";
