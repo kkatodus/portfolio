@@ -69,11 +69,7 @@
           ],
           "RelatedLinks": ["https://arxiv.org/abs/2405.09747"],
           "Descriptions": [
-            "Worked as a NLP researcher under co-supervision of Prof. Raeid Saqur and Dr. Christopher Cochrane to work on a paper exploring the use of LLM in the analysis of parliamentary speeches of Japanese legislators to predict their ideological stances in regards to various political topics.",
-            "Fine-tuned a BERT model to classify speech segments into opinion, factual, descriptive, other sentence types",
-            "Conducted statistical analysis on the retrieved embeddings to explain political stances of legislators",
-            "Published paper 'L(u)PIN: LLM-based Political Ideology Nowcasting' on arxiv. ",
-            "Presenting a poster in the PolMeth 2024 conference at UC Riverside."
+            "We introduce and make publicly available the NIFTY Financial News Headlines dataset, designed to facilitate and advance research in financial market forecasting using large language models (LLMs). This dataset comprises two distinct versions tailored for different modeling approaches: (i) NIFTY-LM, which targets supervised fine-tuning (SFT) of LLMs with an auto-regressive, causal language-modeling objective, and (ii) NIFTY-RL, formatted specifically for alignment methods (like reinforcement learning from human feedback (RLHF)) to align LLMs via rejection sampling and reward modeling. Each dataset version provides curated, high-quality data incorporating comprehensive metadata, market indices, and deduplicated financial news headlines systematically filtered and ranked to suit modern LLM frameworks. We also include experiments demonstrating some applications of the dataset in tasks like stock price movement and the role of LLM embeddings in information acquisition/richness. The NIFTY dataset along with utilities (like truncating prompt's context length systematically) are available on Hugging Face at this https URL."
           ]
         },
         {
@@ -228,7 +224,7 @@
           "key": "kokkaidoc",
           "RelatedLinks": [
             "https://kokkaidoc.com",
-            "https://youtu.be/OeGgj4nPG3I"
+            "https://youtu.be/dN-Hmjzhhww"
           ],
           "Keywords": [
             "NLP",

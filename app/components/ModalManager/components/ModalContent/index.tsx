@@ -28,13 +28,13 @@ const ModalContent = ({ Experience }: { Experience: ExperienceType }) => {
       </div>
       <div className="relative bg-white mt-2 p-2 rounded-md flex-1 overflow-y-scroll mb-4">
         <div className="h-full flex flex-col">
-          {Experience.Descriptions?.map((description) => (
-            <p key={description}>- {description}</p>
-          ))}
           {Experience.RelatedLinks?.map((link) => (
             <div key={link} className="m-2">
               <Microlink url={link} />
             </div>
+          ))}
+          {Experience.Descriptions?.map((description) => (
+            <p key={description}>- {description}</p>
           ))}
         </div>
       </div>

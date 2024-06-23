@@ -8,7 +8,7 @@ import GetInTouch from "./components/GetInTouch";
 
 export default function Home() {
   return (
-    <div className="h-full w-full absolute snap-y snap-mandatory overflow-y-scroll">
+    <div className="h-full w-full absolute snap-y snap-mandatory overflow-y-scroll overflow-x-clip">
       <PortfolioImage />
 
       {CareerData.map(
