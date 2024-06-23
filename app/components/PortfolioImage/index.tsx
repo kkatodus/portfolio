@@ -34,7 +34,7 @@ export const PortfolioImage = () => {
                     "Data Scientist",
                     "Founder",
                     "Academic",
-                    "Football (soccer) Coach",
+                    "Football Coach",
                     "Part-time Actor",
                   ]}
                   cursor
