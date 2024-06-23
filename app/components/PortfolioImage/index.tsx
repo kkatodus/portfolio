@@ -53,7 +53,7 @@ export const PortfolioImage = () => {
               <Link href={"https://www.linkedin.com/in/kkatodus/"}>
                 <FaLinkedin className="text-4xl" />
               </Link>
-              <Link href={"./Resume.pdf"}>
+              <Link href={"./Resume.pdf"} target="_blank">
                 <IoDocumentText className="text-4xl" />
               </Link>
               <Link href={"https://www.kokkaidoc.com"}>
