@@ -32,7 +32,7 @@ export const PortfolioImage = () => {
                     "Fullstack Engineer",
                     "AI Reseacher",
                     "Data Scientist",
-                    "Founder of KOKKAI DOC",
+                    "Founder",
                     "Academic",
                     "Football (soccer) Coach",
                     "Part-time Actor",
