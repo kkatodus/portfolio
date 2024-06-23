@@ -7,6 +7,8 @@ import { Typewriter } from "react-simple-typewriter";
 import { Fade } from "react-awesome-reveal";
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 import Link from "next/link";
+import { env } from "process";
+import { IoDocumentText } from "react-icons/io5";
 
 export const PortfolioImage = () => {
   return (
@@ -50,6 +52,9 @@ export const PortfolioImage = () => {
               </Link>
               <Link href={"https://www.linkedin.com/in/kkatodus/"}>
                 <FaLinkedin className="text-4xl" />
+              </Link>
+              <Link href={"./Resume.pdf"}>
+                <IoDocumentText className="text-4xl" />
               </Link>
               <Link href={"https://www.kokkaidoc.com"}>
                 <Image alt="kokkaidoc" src={kokkaidoc} className="w-10 h-10" />
