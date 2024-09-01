@@ -15,7 +15,7 @@ const CareerSegment = ({
         {Genre}
       </h1>
       <hr className="absolute border-2 border-solid border-black w-full -z-50" />
-      <div className="flex flex-row overflow-x-scroll no-scrollbar w-100 relative">
+      <div className="flex flex-row overflow-x-scroll overflow-y-clip w-100 relative">
         {Experiences.map((Experience) => {
           const { Name } = Experience;
           return <ExperienceCard key={Name} Experience={Experience} />;

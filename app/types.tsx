@@ -9,6 +9,8 @@ type ExperienceType = {
   key?: string;
   textcolor?: string;
   RelatedLinks?: string[];
+  videoLink?: string;
+  DownloadableDocuments?: { Text: string; link: string }[];
 };
 
 export default ExperienceType;

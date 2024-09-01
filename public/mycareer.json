@@ -11,19 +11,26 @@
           "Location": "Munich, Germany",
           "Start": "2024-05-01",
           "End": "2024-08-31",
+          "RelatedLinks": [
+            "https://github.com/kkatodus/rt1_controller_for_stretch",
+            "https://github.com/kkatodus/dm_control"
+          ],
+          "videoLink": "https://www.youtube.com/embed/433Mq2W6Bzo?si=6Z55jKmsnivqeOZf",
           "Keywords": [
             "AI",
             "LLM",
             "Robotics",
-            "ROS",
+            "ROS2",
             "Mujoco",
             "RL",
             "Research",
             "NLP"
           ],
           "Descriptions": [
-            "Currently working at the LSY lab at TUM led by Prof. Angella Shoellig as a AI/Robotics research Intern",
-            "Working towards integrating LLMs into robotic controls to enable semantically nuanced behaviour of human assisting robots"
+            "Worked towards integrating LLMs into robotic controls to enable semantically nuanced behaviour of human assisting robots",
+            "Developed a simulation environment for the Stretch 3 platform to test out the deployment of RT1 model on the platform",
+            "Integrated RT1 model developed by Google DeepMind on the physical Stretch 3 platform to successfully conduct picking up tasks",
+            "Designed soft-material robotic grippers and iterated on the design to successfully create a motor actuated soft gripper"
           ]
         },
         {
@@ -33,6 +40,12 @@
           "Location": "Toronto, Canada",
           "Start": "2023-10-01",
           "End": "2024-04-31",
+          "DownloadableDocuments": [
+            {
+              "Text": "Poster Presentation at PolMeth 2024",
+              "link": "./L(u)PIN LLM-based Political Ideology Nowcasting.pdf"
+            }
+          ],
           "RelatedLinks": ["https://arxiv.org/abs/2405.07320"],
           "Keywords": [
             "NLP",
@@ -222,10 +235,7 @@
           "Start": "2023-06-01",
           "End": "Present",
           "key": "kokkaidoc",
-          "RelatedLinks": [
-            "https://kokkaidoc.com",
-            "https://youtu.be/dN-Hmjzhhww"
-          ],
+          "RelatedLinks": ["https://kokkaidoc.com"],
           "Keywords": [
             "NLP",
             "LLM",
@@ -245,13 +255,13 @@
             "The platform uses a fine-tuned LLM to analyze the speeches of Japanese legislators and predict their ideological stances in regards to various political topics",
             "The platform also provides a intuitive GUI enabling users to look up the speeches of representatives from various electoral districts and compare their stances on various topics",
             "I have also scraped the voting data of parliamentary representatives and visualized them in a more intuitive way to help users understand the voting patterns of the representatives and parties"
-          ]
+          ],
+          "videoLink": "https://www.youtube.com/embed/dN-Hmjzhhww?si=ynT2qbqNZtWozfeU"
         },
         {
           "Name": "Diary CRUD Application with React and Django",
           "RelatedLinks": [
-            "https://github.com/kkatodus/diary_app_react-django",
-            "https://youtu.be/fzO0WR2NVC8"
+            "https://github.com/kkatodus/diary_app_react-django"
           ],
           "Start": "2016-06-01",
           "End": "2019-02-31",
@@ -264,14 +274,12 @@
             "Backend Development",
             "Frontend Development"
           ],
-          "Descriptions": []
+          "videoLink": "https://www.youtube.com/embed/fzO0WR2NVC8?si=ZIk65VDbTYY2QWGi"
         },
         {
           "Name": "School Reunion CRUD Social Media Platform using Django, HTML, CSS, JS",
-          "RelatedLinks": [
-            "https://github.com/kkatodus/school_reunion_site",
-            "https://youtu.be/LjWDzGAYc-E"
-          ],
+          "RelatedLinks": ["https://github.com/kkatodus/school_reunion_site"],
+          "videoLink": "https://www.youtube.com/embed/LjWDzGAYc-E?si=V654Mnrv4Q3vBMfX",
           "Start": "2016-06-01",
           "End": "2019-02-31",
           "Keywords": [
