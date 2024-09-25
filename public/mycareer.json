@@ -265,6 +265,7 @@
           ],
           "Start": "2016-06-01",
           "End": "2019-02-31",
+          "key": "diary",
           "Keywords": [
             "React",
             "Django",
@@ -282,6 +283,7 @@
           "videoLink": "https://www.youtube.com/embed/LjWDzGAYc-E?si=V654Mnrv4Q3vBMfX",
           "Start": "2016-06-01",
           "End": "2019-02-31",
+          "key": "reunion",
           "Keywords": [
             "HTML/CSS/JS",
             "Django",
@@ -303,6 +305,7 @@
           "Name": "L(u)PIN: LLM-based Political Ideology Nowcasting",
           "Start": "2019-09-01",
           "End": "2020-08-31",
+          "key": "lupin",
           "Keywords": [
             "AI",
             "LLM",
@@ -322,6 +325,7 @@
           "Name": "NIFTY Financial News Headlines Dataset",
           "Start": "2019-09-01",
           "End": "2020-08-31",
+          "key": "nifty",
           "RelatedLinks": ["https://arxiv.org/abs/2405.09747"],
           "Keywords": [
             "NLP",
@@ -337,6 +341,7 @@
         {
           "Name": "Missing Links A comparison of search censorship in China",
           "Start": "2019-09-01",
+          "key": "missing",
           "End": "2020-08-31",
           "Keywords": [
             "Censorship",

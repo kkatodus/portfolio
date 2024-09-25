@@ -13,6 +13,12 @@ import scwest from "@/public/images/scwest.jpeg";
 import uoft from "@/public/images/uoft.png";
 import vector from "@/public/images/vector.jpg";
 import kokkaidoc from "@/public/images/kokkaidoc.PNG";
+import missing from "@/public/images/missing.png";
+import reunion from "@/public/images/reunion.jpg";
+import diary from "@/public/images/diary.jpg";
+import nifty from "@/public/images/nifty.jpg";
+import lupin from "@/public/images/lupin.jpg";
+
 import { CSSProperties } from "react";
 
 const key2image = {
@@ -25,6 +31,11 @@ const key2image = {
   scwest,
   vector,
   uoft,
+  missing,
+  reunion,
+  diary,
+  nifty,
+  lupin,
   kokkaidoc,
 };
 
