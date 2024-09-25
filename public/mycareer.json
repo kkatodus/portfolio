@@ -263,8 +263,8 @@
           "RelatedLinks": [
             "https://github.com/kkatodus/diary_app_react-django"
           ],
-          "Start": "2016-06-01",
-          "End": "2019-02-31",
+          "Start": "2021-06",
+          "End": "2021-07",
           "key": "diary",
           "Keywords": [
             "React",
@@ -281,8 +281,8 @@
           "Name": "School Reunion CRUD Social Media Platform using Django, HTML, CSS, JS",
           "RelatedLinks": ["https://github.com/kkatodus/school_reunion_site"],
           "videoLink": "https://www.youtube.com/embed/LjWDzGAYc-E?si=V654Mnrv4Q3vBMfX",
-          "Start": "2016-06-01",
-          "End": "2019-02-31",
+          "Start": "2020-11",
+          "End": "2021-01",
           "key": "reunion",
           "Keywords": [
             "HTML/CSS/JS",
@@ -303,8 +303,8 @@
       "Experiences": [
         {
           "Name": "L(u)PIN: LLM-based Political Ideology Nowcasting",
-          "Start": "2019-09-01",
-          "End": "2020-08-31",
+          "Start": "2023-10",
+          "End": "2024-04",
           "key": "lupin",
           "Keywords": [
             "AI",
@@ -323,8 +323,8 @@
         },
         {
           "Name": "NIFTY Financial News Headlines Dataset",
-          "Start": "2019-09-01",
-          "End": "2020-08-31",
+          "Start": "2023-11",
+          "End": "2024-04",
           "key": "nifty",
           "RelatedLinks": ["https://arxiv.org/abs/2405.09747"],
           "Keywords": [
@@ -340,9 +340,9 @@
         },
         {
           "Name": "Missing Links A comparison of search censorship in China",
-          "Start": "2019-09-01",
+          "Start": "2022-05",
           "key": "missing",
-          "End": "2020-08-31",
+          "End": "2023-02",
           "Keywords": [
             "Censorship",
             "NLP",
