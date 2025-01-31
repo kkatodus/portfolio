@@ -18,11 +18,13 @@ import reunion from "@/public/images/reunion.jpg";
 import diary from "@/public/images/diary.jpg";
 import nifty from "@/public/images/nifty.jpg";
 import lupin from "@/public/images/lupin.jpg";
+import aiwebsitebuilder from "@/public/images/aiwebsitebuilder.webp";
 
 import { CSSProperties } from "react";
 
 const key2image = {
   lsy,
+  aiwebsitebuilder,
   hf,
   citizen,
   kke,

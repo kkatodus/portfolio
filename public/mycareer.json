@@ -259,6 +259,33 @@
           "videoLink": "https://www.youtube.com/embed/dN-Hmjzhhww?si=ynT2qbqNZtWozfeU"
         },
         {
+          "Name": "AI Website Builder",
+          "Start": "2024-11",
+          "End": "2024-11-15",
+          "key": "aiwebsitebuilder",
+          "Keywords": [
+            "LLM",
+            "AI",
+            "React",
+            "Frontend Development",
+            "Backend Development",
+            "Node.JS",
+            "TypeScript",
+            "NextJS",
+            "TailwindCSS",
+            "MongoDB"
+          ],
+          "Descriptions": [
+            "Developed an AI-powered web application enabling non-technical users to create and edit HTML/CSS websites through natural language interactions with an AI assistant. ",
+            "Frontend: Built with Next.js, TypeScript, and TailwindCSS for a responsive and modern UI. ",
+            "Backend: Developed using Node.js with Express and TypeScript, acting as an intermediary between the frontend and OpenAI's API. ",
+            "Database: Utilized MongoDB to store user sessions, including generated HTML/CSS, AI interactions, and metadata.",
+            "Users can create accounts, authenticate via JWT, and store session histories.",
+            "Ensured scalable deployment using Docker Compose, containerizing all components for seamless setup and execution. "
+          ],
+          "videoLink": "https://www.youtube.com/embed/NvvZ0OytMM4?si=HCLUhRtwidGBg_As"
+        },
+        {
           "Name": "Diary CRUD Application with React and Django",
           "RelatedLinks": [
             "https://github.com/kkatodus/diary_app_react-django"
