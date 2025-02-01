@@ -90,7 +90,7 @@ const ExperienceCard = ({ Experience }: { Experience: ExperienceType }) => {
         <h3 className="text-center font-bold">{Company}</h3>
         <p className="font-bold">{Location}</p>
         <p className="font-bold">
-          {End} ~ {Start}
+          {Start} ~ {End}
         </p>
       </div>
     </div>
