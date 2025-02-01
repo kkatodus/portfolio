@@ -48,13 +48,13 @@ export const PortfolioImage = () => {
             </div>
             <div className="flex w-full mt-2 border-2 border-white rounded-lg p-2 justify-around flex-wrap">
               <Link href={"https://github.com/kkatodus"}>
-                <FaGithub className="text-4xl" />
+                <FaGithub className="text-4xl hover:text-white tra transition duration-500" />
               </Link>
               <Link href={"https://www.linkedin.com/in/kkatodus/"}>
-                <FaLinkedin className="text-4xl" />
+                <FaLinkedin className="text-4xl hover:text-white tra transition duration-500" />
               </Link>
               <Link href={"./Resume.pdf"} target="_blank">
-                <IoDocumentText className="text-4xl" />
+                <IoDocumentText className="text-4xl hover:text-white tra transition duration-500" />
               </Link>
               <Link href={"https://www.kokkaidoc.com"}>
                 <Image alt="kokkaidoc" src={kokkaidoc} className="w-10 h-10" />
