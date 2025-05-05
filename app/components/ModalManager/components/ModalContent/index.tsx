@@ -10,13 +10,13 @@ const ModalContent = ({ Experience }: { Experience: ExperienceType }) => {
   return (
     <div className="relative m-2 flex flex-col h-full">
       <div className="w-[95%] text-white background">
-        <h2 className="text-4xl">
+        <h2 className="text-xl font-bold lg:text-4xl">
           {Experience.Name} {Experience.Company && "@"} {Experience.Company}
         </h2>
       </div>
       <div className="flex text-white">
         <h3>
-          {Experience.End} ~ {Experience.Start}
+          {Experience.Start}~ {Experience.End}
         </h3>
         <h3 className="ml-10">{Experience.Location}</h3>
       </div>
@@ -30,7 +30,7 @@ const ModalContent = ({ Experience }: { Experience: ExperienceType }) => {
           </p>
         ))}
       </div>
-      <div className="relative bg-white mt-2 p-2 rounded-md flex flex-1 overflow-y-scroll mb-4">
+      <div className="relative bg-white mt-2 p-2 rounded-md flex flex-col lg:flex-row flex-1 overflow-y-scroll mb-4">
         {hasOtherMedia && (
           <div>
             {Experience.videoLink && (

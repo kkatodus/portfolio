@@ -14,7 +14,7 @@ export const PortfolioImage = () => {
   return (
     <div className="relative h-full w-full flex justify-center items-center snap-start">
       <Fade className="h-full w-full flex items-center justify-center">
-        <div className="relative flex justify-center items-center border-solid border-2 p-5 rounded-md bg-slate-500 shadow-lg h-[60%] lg:h-auto">
+        <div className="relative flex justify-center items-center border-solid border-2 p-5 rounded-md bg-slate-500 shadow-lg h-auto md:h-[50%] lg:h-auto lg:h-auto">
           <Image
             src={portfolio}
             className="rounded-full object-cover w-[200px] h-[200px] mr-10"
@@ -26,10 +26,10 @@ export const PortfolioImage = () => {
                 Hey there! Thank you for finding me. <br></br> My name is Ken. I
                 am a...
               </p>
-              <span className="text-4xl">
+              <span className="text-xl lg:text-4xl ">
                 <Typewriter
                   words={[
-                    "Fullstack Engineer",
+                    "SWE",
                     "AI Reseacher",
                     "Data Scientist",
                     "Founder",

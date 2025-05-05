@@ -10,18 +10,18 @@ const CareerSegment = ({
   Experiences: ExperienceType[];
 }) => {
   return (
-    <div className="h-full w-full flex justify-center items-center snap-center relative ">
-      <h1 className="absolute top-0 left-0 text-4xl mt-2 ml-2 font-bold ">
+    <div className="h-[40%] lg:h-full lg:w-full flex justify-center items-center snap-center relative ">
+      <h1 className="absolute lg:absolute top-0 left-0 text-4xl mt-2 ml-2 font-bold ">
         {Genre}
       </h1>
       <hr className="absolute border-2 border-solid border-black w-full -z-50" />
-      <div className="flex flex-row overflow-x-scroll overflow-y-clip w-100 relative">
+      <div className="flex flex-row overflow-x-scroll md:overflow-y-cliplg:overflow-y-clip w-100 relative">
         {Experiences.map((Experience) => {
           const { Name } = Experience;
           return <ExperienceCard key={Name} Experience={Experience} />;
         })}
       </div>
-      <div className="text-4xl absolute bottom-0">
+      <div className="invisible lg:visible text-4xl absolute bottom-0">
         <MdKeyboardDoubleArrowDown className="animate-bounce" />
       </div>
     </div>

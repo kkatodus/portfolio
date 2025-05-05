@@ -19,7 +19,7 @@ import diary from "@/public/images/diary.jpg";
 import nifty from "@/public/images/nifty.jpg";
 import lupin from "@/public/images/lupin.jpg";
 import aiwebsitebuilder from "@/public/images/aiwebsitebuilder.webp";
-
+import digital from "@/public/images/digital.png";
 import { CSSProperties } from "react";
 
 const key2image = {
@@ -39,6 +39,7 @@ const key2image = {
   nifty,
   lupin,
   kokkaidoc,
+  digital,
 };
 
 const pastelColors = [
@@ -64,7 +65,7 @@ const ExperienceCard = ({ Experience }: { Experience: ExperienceType }) => {
   } = Experience;
   return (
     <div
-      className={`relative h-[300px] min-w-[300px] w-[200px] m-2 border-2 rounded-md flex flex-col justify-center items-center transition duration-500 hover:scale-110 cursor-pointer ${
+      className={`relative h-[200px] w-[200px] min-w-[200px] lg:h-[300px] lg:min-w-[300px] lg:w-[200px] m-2 border-2 rounded-md flex flex-col justify-center items-center transition duration-500 hover:scale-110 cursor-pointer ${
         key ? "bg-white" : pastelColors[Math.floor(Math.random() * 4)]
       }`}
       style={
@@ -82,14 +83,14 @@ const ExperienceCard = ({ Experience }: { Experience: ExperienceType }) => {
       onClick={() => updateCurrentModalExperienceState(Experience)}
     >
       <div
-        className={`flex flex-col justify-center items-center bg-white bg-opacity-50 w-full h-full ${
+        className={`flex flex-col justify-center items-center bg-white bg-opacity-80 w-full h-full ${
           textcolor ? textcolor : "text-black"
         } `}
       >
-        <h2 className="text-2xl text-center font-bold">{Name}</h2>
+        <h2 className="text-xl lg:text-2xl text-center font-bold">{Name}</h2>
         <h3 className="text-center font-bold">{Company}</h3>
         <p className="font-bold">{Location}</p>
-        <p className="font-bold">
+        <p className="font-bold text-sm lg:text-base">
           {Start} ~ {End}
         </p>
       </div>
