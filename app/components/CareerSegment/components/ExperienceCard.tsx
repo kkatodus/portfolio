@@ -65,7 +65,7 @@ const ExperienceCard = ({ Experience }: { Experience: ExperienceType }) => {
   } = Experience;
   return (
     <div
-      className={`relative h-[200px] w-[200px] min-w-[200px] lg:h-[300px] lg:min-w-[300px] lg:w-[200px] m-2 border-2 rounded-md flex flex-col justify-center items-center transition duration-500 hover:scale-110 cursor-pointer ${
+      className={`relative h-[150px] w-[200px] min-w-[200px] lg:h-[300px] lg:min-w-[300px] lg:w-[200px] m-2 border-2 rounded-md flex flex-col justify-center items-center transition duration-500 hover:scale-110 cursor-pointer ${
         key ? "bg-white" : pastelColors[Math.floor(Math.random() * 4)]
       }`}
       style={
