@@ -88,7 +88,7 @@ const ExperienceCard = ({ Experience }: { Experience: ExperienceType }) => {
           textcolor ? textcolor : "text-black"
         } `}
       >
-        <h2 className="text-lg lg:text-2xl text-center font-bold">{Name}</h2>
+        <h2 className=" lg:text-2xl text-center font-bold">{Name}</h2>
         <h3 className="text-center lg:text-lg lg:font-bold ">{Company}</h3>
         <p className="text-sm lg:text-base lg:font-bold">{Location}</p>
         <p className="lg:font-bold text-sm lg:text-base">
