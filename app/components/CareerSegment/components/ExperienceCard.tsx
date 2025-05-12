@@ -40,6 +40,7 @@ const key2image = {
   lupin,
   kokkaidoc,
   digital,
+  "kokkaidoc pub": kokkaidoc,
 };
 
 const pastelColors = [
