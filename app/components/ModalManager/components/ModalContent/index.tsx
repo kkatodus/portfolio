@@ -16,7 +16,7 @@ const ModalContent = ({ Experience }: { Experience: ExperienceType }) => {
       </div>
       <div className="flex text-white">
         <h3>
-          {Experience.Start}~ {Experience.End}
+          {Experience.Start} ~ {Experience.End}
         </h3>
         <h3 className="ml-10">{Experience.Location}</h3>
       </div>
