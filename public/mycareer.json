@@ -4,18 +4,6 @@
       "Genre": "Experiences",
       "Experiences": [
         {
-          "Name": "Data Scientist",
-          "key": "digital",
-          "textcolor": "black",
-          "Company": "Digital Agency-デジタル庁",
-          "Location": "Tokyo, Japan",
-          "Start": "2025-08-01",
-          "Descriptions": [
-            "Incoming Data Scientist @ Digital Agency(デジタル庁)",
-            "Contributing to the development of platforms for the Japanese government to improve delivery of public services"
-          ]
-        },
-        {
           "Name": "AI/Robotics Researcher",
           "key": "lsy",
           "textcolor": "black",
