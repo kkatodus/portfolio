@@ -4,6 +4,15 @@
       "Genre": "Experiences",
       "Experiences": [
         {
+          "Name": "Data Scientist",
+          "key": "digital",
+          "textcolor": "black",
+          "Company": "Digital Agency@Gov of Japan",
+          "Location": "Tokyo, Japan",
+          "Start": "2025-08-01",
+          "End": "Present"
+        },
+        {
           "Name": "AI/Robotics Researcher",
           "key": "lsy",
           "textcolor": "black",
